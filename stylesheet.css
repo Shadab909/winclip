@@ -1,0 +1,168 @@
+/* WinClip Stylesheet — applied to St widgets inside gnome-shell */
+
+/* ---- Main Dialog ---- */
+.winclip-dialog {
+  background-color: rgba(30, 30, 46, 0.95);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  padding: 16px;
+}
+
+/* ---- Header ---- */
+.winclip-header {
+  padding: 0 4px 12px 4px;
+}
+
+.winclip-title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.winclip-clear-button {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 6px;
+  border: none;
+}
+
+.winclip-clear-button:hover {
+  background-color: rgba(255, 80, 80, 0.2);
+}
+
+.winclip-clear-button StIcon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.winclip-clear-button:hover StIcon {
+  color: rgba(255, 80, 80, 0.9);
+}
+
+/* ---- Close Button ---- */
+.winclip-close-button {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 6px;
+  border: none;
+  margin-left: 4px;
+}
+
+.winclip-close-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.winclip-close-button StIcon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.winclip-close-button:hover StIcon {
+  color: rgba(255, 255, 255, 0.9);
+}
+/* ---- Search Entry ---- */
+.winclip-search {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #cdd6f4;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.winclip-search:focus {
+  border-color: rgba(137, 180, 250, 0.5);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.winclip-search StIcon {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* ---- Scroll View ---- */
+.winclip-scroll {
+  border-radius: 10px;
+}
+
+/* ---- List ---- */
+.winclip-list {
+  spacing: 4px;
+}
+
+/* ---- Clipboard Item ---- */
+.winclip-item {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  transition-duration: 150ms;
+}
+
+.winclip-item:hover {
+  background-color: rgba(137, 180, 250, 0.12);
+  border-color: rgba(137, 180, 250, 0.2);
+}
+
+.winclip-item:focus {
+  background-color: rgba(137, 180, 250, 0.15);
+  border-color: rgba(137, 180, 250, 0.4);
+}
+
+/* ---- Pinned Item ---- */
+.winclip-item-pinned {
+  background-color: rgba(249, 226, 175, 0.06);
+  border-color: rgba(249, 226, 175, 0.15);
+}
+
+.winclip-item-pinned:hover {
+  background-color: rgba(249, 226, 175, 0.12);
+  border-color: rgba(249, 226, 175, 0.25);
+}
+
+/* ---- Item Icon ---- */
+.winclip-item-icon {
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: 8px;
+}
+
+/* ---- Item Text ---- */
+.winclip-item-text {
+  color: #cdd6f4;
+  font-size: 13px;
+}
+
+/* ---- Item Image Thumbnail ---- */
+.winclip-item-image {
+  border-radius: 6px;
+  margin-right: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* ---- Action Buttons ---- */
+.winclip-action-button {
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 4px;
+  border: none;
+  margin-left: 2px;
+}
+
+.winclip-action-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.winclip-action-button StIcon {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.winclip-action-button:hover StIcon {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ---- Empty State ---- */
+.winclip-empty {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  text-align: center;
+  padding: 40px 0;
+}

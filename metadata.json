@@ -1,0 +1,10 @@
+{
+  "uuid": "winclip@Shadab909.github.io",
+  "name": "WinClip",
+  "description": "A Windows-style clipboard manager for GNOME Shell. Press Super+V to view and paste from clipboard history.",
+  "shell-version": [
+    "46"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.winclip",
+  "url": ""
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.winclip"
+          path="/org/gnome/shell/extensions/winclip/">
+
+    <key name="max-history-items" type="i">
+      <default>50</default>
+      <summary>Maximum history items</summary>
+      <description>Maximum number of clipboard entries to keep in history. Pinned items do not count towards this limit.</description>
+      <range min="10" max="200"/>
+    </key>
+
+    <key name="global-shortcut" type="as">
+      <default>['&lt;Super&gt;v']</default>
+      <summary>Toggle shortcut</summary>
+      <description>Keyboard shortcut to open the clipboard history dialog.</description>
+    </key>
+
+  </schema>
+</schemalist>
