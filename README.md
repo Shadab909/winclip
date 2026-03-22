@@ -89,13 +89,12 @@ gnome-extensions uninstall winclip@Shadab909.github.io
 
 | Action | How |
 |--------|-----|
-| Open clipboard history | `Super+V` |
+| Open/Close clipboard history | `Super+V` |
 | Search | Type in the search bar |
 | Paste an item | Click it, or navigate with ↑↓ and press Enter |
 | Pin/unpin | Click the ⭐ icon |
 | Delete an item | Click the 🗑 icon, or focus + press Delete |
 | Clear unpinned | Click the trash icon in the header |
-| Close | Press `Escape` or click outside the dialog |
 
 ## Preferences
 
