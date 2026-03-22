@@ -26,6 +26,23 @@ A GNOME Shell extension that adds a **Windows-style clipboard history** to your 
 - ⚙️ **Configurable** — max items via preferences page
 - 🧹 **Clean disable** — removes all signals, shortcuts, and UI on disable
 
+
+## ⚠️ Before You Install — Disable Conflicting Shortcut
+
+Ubuntu 24.04 assigns `Super+V` to the **notification tray** by default. You must disable this before WinClip can capture it.
+
+**Disable via terminal:**
+```bash
+gsettings set org.gnome.shell.keybindings toggle-message-tray "[]"
+```
+
+**To restore it later if you uninstall WinClip:**
+```bash
+gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>v']"
+```
+
+> After disabling, restart GNOME Shell (`Alt+F2` → `r` → Enter) for the change to take effect.
+
 ## Installation
 
 ### Option 1 — Direct install (recommended)
